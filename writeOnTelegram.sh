@@ -1,0 +1,6 @@
+#!/bin/bash
+to=$1
+msg=$2
+tgpath=/home/lorenzo/Applications/tg
+cd ${tgpath}
+(echo "safe_quit") | ${tgpath}/bin/telegram-cli -k tg-server.pub -U root -W -e "msg $to $msg"
