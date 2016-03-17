@@ -15,5 +15,5 @@ rem)
 :Start
 cd %minecraftServerPath%
 rem call %telegramScriptPath% %minecraftGroup% "#ServerUP @ %myip%"
-java -Xms1024m -Xmx1024m -jar %minecraftServerPath%\minecraft_server.1.8.9.jar nogui
+java -Xms1024m -Xmx1024m -jar %minecraftServerPath%\minecraft_server.1.9.jar nogui
 rem call %telegramScriptPath% %minecraftGroup% "#ServerDown @ %myip%"
