@@ -7,11 +7,11 @@
 # Works only on linux
 
 telegramScriptPath=/home/lorenzo/Dropbox/Minecraft-Server/writeOnTelegram.sh
-minecraftServerPath=/home/lorenzo/Dropbox/Minecraft-Server/minecraft_server.1.8.9.jar
+minecraftServerPath=/home/lorenzo/Dropbox/Minecraft-Server/minecraft_server.1.11.2.jar
 minecraftGroup=minemerda
 myip=$(dig +short myip.opendns.com @resolver1.opendns.com)
 
 
 $telegramScriptPath $minecraftGroup "#ServerUP @ $myip"
-java -Xmx1024M -Xms1024M -jar $minecraftServerPath nogui
+java -Xmx1024M -Xms2048M -jar $minecraftServerPath nogui
 $telegramScriptPath $minecraftGroup "#ServerDown @ $myip"

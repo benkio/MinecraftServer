@@ -10,5 +10,11 @@
     "name": "benkio",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ec19ab1a-9b54-3aea-9df0-2bad2896c38d",
+    "name": "Max",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
