@@ -16,5 +16,5 @@ rem)
 cd %minecraftServerPath%
 rem call %telegramScriptPath% %minecraftGroup% "#ServerUP @ %myip%"
 rem java -Xms1024m -Xmx2048m -jar %minecraftServerPath%\minecraft_server.1.11.2.jar nogui
-java -Xms512M -Xmx1G -XX:MaxPermSize=128M -XX:+UseConcMarkSweepGC -jar spigot-1.11.2.jar
+java -Xms512M -Xmx1G -XX:MaxPermSize=128M -XX:+UseConcMarkSweepGC -jar spigot-1.13.2.jar
 rem call %telegramScriptPath% %minecraftGroup% "#ServerDown @ %myip%"

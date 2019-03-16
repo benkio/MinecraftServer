@@ -7,7 +7,7 @@
 # Works only on linux
 
 telegramScriptPath=/home/lorenzo/Dropbox/Minecraft-Server/writeOnTelegram.sh
-minecraftServerPath=/home/lorenzo/Dropbox/Minecraft-Server/minecraft_server.1.11.2.jar
+minecraftServerPath=/home/lorenzo/Dropbox/Minecraft-Server/minecraft_server.1.13.2.jar
 minecraftGroup=minemerda
 myip=$(dig +short myip.opendns.com @resolver1.opendns.com)
 
